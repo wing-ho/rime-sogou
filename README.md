@@ -89,6 +89,13 @@ console.log(rimeSogou.chinese())
 */
 ```
 
+# 自动下载搜狗词库并转化为rime词库
+
+```shell
+#npm i rime-sogou
+./generate.sh
+```
+
 ## Author
 
 **rime-sogou** © [metowolf](https://github.com/metowolf).<br>
