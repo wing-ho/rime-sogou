@@ -6,7 +6,7 @@
 # ~/Library/Rime  (Mac OS)
 # %APPDATA%\Rime  (Windows)
 #
-# 於重新部署後生效
+# 于重新部署后生效
 #
 
 ---
@@ -16,10 +16,13 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
+  - luna_pinyin.sogou.standard
+  - luna_pinyin.sogou.popular
+  - luna_pinyin.sogou.poetry
   - luna_pinyin.sogou.chengyu
   - luna_pinyin.sogou.computer
-  - luna_pinyin.sogou.mobile
-  - luna_pinyin.sogou.poetry
-  - luna_pinyin.sogou.popular
-  - luna_pinyin.sogou.social
+  - luna_pinyin.sogou.mobile  
+  - luna_pinyin.sogou.coding
+  - luna_pinyin.sogou.java
+
 ...

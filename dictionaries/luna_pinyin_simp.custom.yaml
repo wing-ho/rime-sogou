@@ -1,0 +1,32 @@
+# luna_pinyin.custom.yaml
+#
+# 补丁功能：将朙月拼音的词库修改为搜狗细胞词库
+#
+# 作者：瑾昀 <cokunhui@gmail.com>
+# 修订：metowolf <i@i-meto.com>
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 于重新部署后生效
+#
+#
+# 注意：本补丁适用于所有朙月拼音系列方案（「朙月拼音」、「朙月拼音·简化字」、「朙月拼音·台湾正体」、「朙月拼音·语句流」）。
+# 只须将本 custom.yaml 的前面名字改为对应的输入方案名字然后放入用户文件夹重新部署即可。如 luna_pinyin_simp.custom.yaml。
+#
+#
+# 附朙月拼音系列方案与其对应的 id 一览表：
+# 输入方案	id
+# 朙月拼音	luna_pinyin
+# 朙月拼音·简化字	luna_pinyin_simp
+# 朙月拼音·台湾正体	luna_pinyin_tw
+# 朙月拼音·语句流	luna_pinyin_fluency
+#
+
+patch:
+  # 默认英文
+  switches/@0/reset: 1
+  # 载入搜狗细胞词库
+  "translator/dictionary": luna_pinyin.sogou.extended
