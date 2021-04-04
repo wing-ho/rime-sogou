@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/2666735/50629646-64043400-0f78-11e9-96e0-9fdfea4d86d8.png" width="100px" alt="rime-sogou">
 </p>
 <p align="center">搜狗细胞词库解析工具</p>
-我用那个深蓝词库转换工具，转出来的词库，丢失了词频信息的，metowolf这位老兄写的解析工具，非常好用，我添加了自动下载常用词库的脚本。
+我用深蓝词库转换工具，转出来的词库，丢失了词频信息，metowolf这位老兄写的解析工具，代码简单清晰，非常好用，我添加了自动下载常用词库的脚本。
 
 # 自动下载搜狗词库并转化为rime词库
 
